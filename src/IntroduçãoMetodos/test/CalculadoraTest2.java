@@ -1,15 +1,11 @@
 package IntroduçãoMetodos.test;
 
-import Dominio.Estudante;
 import IntroduçãoMetodos.Dominio.Calculadora;
 
-import java.util.Scanner;
-
-public class Calculadoratest {
+public class CalculadoraTest2 {
     public static void main(String[] args) {
-
         Calculadora calculadora=new Calculadora();
-        calculadora.somarNumeros(10,5);
+        //A linha 9 so funciona se voçê colocar os dois numeros no espaço de memoria
+        calculadora.multiplicarNumeros(5,2);
     }
 }
-

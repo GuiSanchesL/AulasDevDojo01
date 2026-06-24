@@ -10,7 +10,7 @@ public class CarroTest {
         carro1.modelo = "S.U.V";
         carro1.ano = 2019;
 
-        //carro1=carro2; uso da Referencia de objeto
+       // carro1=carro2; uso da Referencia de objeto
 
         carro2.nome= "Citroen C3";
         carro2.modelo="Hatch";
