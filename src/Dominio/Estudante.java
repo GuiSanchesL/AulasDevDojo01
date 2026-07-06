@@ -6,5 +6,6 @@ public class Estudante {
     public char sexo;
     public double altura;
 
-    }
+
+}
 

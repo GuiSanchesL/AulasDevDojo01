@@ -5,7 +5,7 @@ import IntroduçãoMetodos.Dominio.Calculadora;
 public class Calculadoratest3 {
     public static void main(String[] args) {
         Calculadora calculadora=new Calculadora();
-        double result= calculadora.divideDoisNumeros(20,2);
+        double result= calculadora.divideDoisNumeros(20,5);
         System.out.println(result);
     }
 }
