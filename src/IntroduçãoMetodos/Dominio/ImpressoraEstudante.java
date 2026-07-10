@@ -1,8 +1,7 @@
 package IntroduçãoMetodos.Dominio;
 
 public class ImpressoraEstudante {
-    public void Impressora(Estudante estudante){
-
+    public void impressora(Estudante estudante){
         System.out.println(estudante.nome);
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
