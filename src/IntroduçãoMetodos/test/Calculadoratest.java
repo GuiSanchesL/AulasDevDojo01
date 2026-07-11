@@ -10,6 +10,13 @@ public class Calculadoratest {
 
         Calculadora calculadora=new Calculadora();
         calculadora.somarNumeros(10,5);
+
+     double result= calculadora.divideDoisNumeros(20,5);
+        System.out.println(result);
+
+        calculadora.multiplicarNumeros(5,5);
+
     }
+
 }
 
