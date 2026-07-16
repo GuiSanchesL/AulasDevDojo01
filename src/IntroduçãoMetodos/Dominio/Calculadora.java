@@ -20,7 +20,7 @@ public class Calculadora {
         }
             System.out.println(soma);
     }
-1
+
     public void multiplicarnumeros(int num1, int num2){
         System.out.println(num1*num2);
     }

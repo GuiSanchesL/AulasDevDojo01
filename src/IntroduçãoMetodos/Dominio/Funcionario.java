@@ -5,22 +5,14 @@ public class Funcionario {
     public int idade;
     public double[] salarios;
 
-    //A variavel salario deve receber ate tres salarios
     public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.idade);
-        for (double salario : salarios) {
-            System.out.println(salario + " ");
-        }
+        for (double nums : salarios) {
+            System.out.println(nums);
 
-    }
-
-    public void imprimeMediaSalario() {
-        double media = 0;
-        for (double salario : salarios) {
-            media += salario;
+            double media = nums /salarios.length;
+            System.out.println("Media "+ media);
         }
-        media /= salarios.length;
-        System.out.println("Media Salarial "+ media );
     }
 }
