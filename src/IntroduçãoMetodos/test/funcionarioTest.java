@@ -10,4 +10,6 @@ public class funcionarioTest {
         funcionario.salarios = new double[] {100,200,300};
         funcionario.imprime();
     }
+
+
 }

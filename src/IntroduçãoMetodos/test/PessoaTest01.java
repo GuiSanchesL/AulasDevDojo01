@@ -1,15 +1,15 @@
 package IntroduçãoMetodos.test;
 
-import IntroduçãoMetodos.Dominio.Pesooa;
+import IntroduçãoMetodos.Dominio.Pessoa;
 
 public class PessoaTest01 {
     public static void main(String[] args) {
-        Pesooa pessoa = new Pesooa();
+        Pessoa pessoa = new Pessoa();
         //pessoa.nome="luiza";
         //pessoa.idade  =19;
         pessoa.setNome("Luiza");
-        pessoa.setIdade(18);
-        pessoa.setSalario(15.000);
+        pessoa.setIdade(19);
+
 
         System.out.println(pessoa.getNome());
         System.out.println(pessoa.getIdade());
