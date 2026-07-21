@@ -10,6 +10,8 @@ public class PessoaTest01 {
         pessoa.setNome("Luiza");
         pessoa.setIdade(18);
         pessoa.setSalario(15.000);
-        pessoa.imprime();
+
+        System.out.println(pessoa.getNome());
+        System.out.println(pessoa.getIdade());
     }
 }

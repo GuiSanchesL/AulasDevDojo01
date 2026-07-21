@@ -25,4 +25,12 @@ public class Pesooa {
         }
         System.out.println(this.salario);
     }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public int getIdade() {
+        return this.idade;
+    }
 }
