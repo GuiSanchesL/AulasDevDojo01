@@ -1,52 +1,84 @@
 package Construtores.Dominio;
 
 public class Filmes {
-   private String nome;
-    private String tipo;
-    private String genero;
+    private String nome;
     private int episodios;
+    private String classificacao;
+    private String genero;
+    private String estudio;
 
-    public void imprime(){
+    public Filmes(String nome, int episodios, String classificacao, String genero){
+        this();
+        this.nome = nome;
+        this.classificacao=classificacao;
+        this.episodios=episodios;
+        this.genero = genero;
+
+
+    }
+
+    public Filmes(String nome, int episodios, String classificacao, String genero,String estudio){
+        this(nome, episodios, classificacao, genero);
+        this.estudio=estudio;
+
+    }
+
+    public Filmes() {
+
+    }
+
+    public void imprime() {
         System.out.println(this.nome);
-        System.out.println(this.tipo);
-        System.out.println(this.genero);
         System.out.println(this.episodios);
+        System.out.println(this.classificacao);
+        System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
-    public void inicializacao(String nome, String tipo,int episodios){
-        this.nome=nome;
-        this.tipo=tipo;
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public void init(String nome, int episodios, String classificacao) {
+        this.nome = nome;
+        this.genero = genero;
+        this.classificacao = classificacao;
+        this.episodios = episodios;
+    }
+
+    public void init(String nome, int episodios, String classificacao, String genero) {
+        this.nome = nome;
+        this.classificacao=classificacao;
         this.episodios=episodios;
-    }
-    public void inicializacao(String nome, String tipo, String genero, int episodios){
-        this.inicializacao(nome,tipo,episodios);
-        this.genero=genero;
-    }
-    public void setGenero(String genero){
-        this.genero=genero;
-    }
-    public String getGenero(){
-        return this.genero;
-    }
-    public void setNome(String nome){
-        this.nome=nome;
+        this.genero = genero;
+        System.out.println("Fim");
     }
 
-    public String getNome(){
-        return this.nome=nome;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-    public void setTipo(String tipo){
-        this.tipo=tipo;
+
+    public String getNome() {
+        return nome;
     }
-public void setEpisodios(int episodios){
-        this.episodios=episodios;
 
+    public void setEpisodios(int episodios) {
+        this.episodios = episodios;
     }
-        public String getTipo(){
-        return this.tipo;
-        }
-        public int getEpisodios(){
-        return this.episodios;
-        }
 
+    public int getEpisodios() {
+        return episodios;
+    }
 
+    public void setClassificacao() {
+        this.classificacao = classificacao;
+    }
+
+    public String getClassificacao() {
+        return classificacao;
+    }
 }

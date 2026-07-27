@@ -1,4 +1,4 @@
-package test;
+package IntroduçãoMetodos.test;
 
 import Dominio.Professor;
 

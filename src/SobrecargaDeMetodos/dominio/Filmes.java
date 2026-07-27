@@ -1,10 +1,14 @@
-package SobrecargaDeMetodos;
+package SobrecargaDeMetodos.dominio;
 
 public class Filmes {
    private String nome;
     private String tipo;
     private String genero;
     private int episodios;
+
+    public Filmes(String nome ){
+        this.nome=nome;
+    }
 
     public void imprime(){
         System.out.println(this.nome);
