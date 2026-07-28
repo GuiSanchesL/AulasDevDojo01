@@ -1,6 +1,6 @@
 package AcademyDevDojo;
 
-public class Estrututaderepeticao {
+public class Estruturaderepeticao {
     public static void main(String[] args) {
         /* while, do while, for. Estruturas de repetição mais comuns*/
         /* While é usado quando Nao sabe quantas vezes vai repitir -- depende de uma condiçao*/
