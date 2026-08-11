@@ -2,22 +2,23 @@ package ModificadoresStatics.Dominio;
 
 public class Carro {
     private String marca;
-    private double VelocidadeMaxima;
-    public static double VelocidadeLimite = 250;
-
+    private double velocidadeMaxima;
+    public static double velocidadeLimite = 250;
     public Carro(String marca, double VelocidadeMaxima) {
 
         this.marca = marca;
-        this.VelocidadeMaxima = VelocidadeMaxima;
+        this.velocidadeMaxima = VelocidadeMaxima;
     }
+public static void setVelocidadeLimite(double velocidadeLimite) {
+    Carro.velocidadeLimite = velocidadeLimite;
+}
 
     public void imprime() {
-        System.out.println(this.marca);
-        System.out.println(this.VelocidadeMaxima);
-        System.out.println(Carro.VelocidadeLimite); // Claude me explica do porque o uso do this aqui ser uma acao ruim
+        System.out.println("Nome: "+this.marca);
+        System.out.println("Velocidade Maxima:"+this.velocidadeMaxima);
+        System.out.println("Velocidade Limite"+Carro.velocidadeLimite);
         System.out.println("------------------------------------------");
     }
-
 
     public String getMarca() {
         return marca;
@@ -28,11 +29,11 @@ public class Carro {
     }
 
     public double getVelocidadeMaxima() {
-        return VelocidadeMaxima;
+        return velocidadeMaxima;
     }
 
     public void setVelocidadeMaxima(double velocidadeMaxima) {
-        VelocidadeMaxima = velocidadeMaxima;
+        velocidadeMaxima = velocidadeMaxima;
     }
 
 }
