@@ -2,7 +2,6 @@ package ModificadoresStatics.Dominio;
 
 public class Anime {
     private String nome;
-    // private int[] episodios;
     private static int[] episodios;
 
     //0- Bloco de inizializacao é executado quando a jvm carregar a classe
