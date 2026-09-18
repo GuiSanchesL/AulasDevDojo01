@@ -1,22 +1,22 @@
 package Heranca.Dominio;
 
 public class Endereco {
-    private int cep;
-    private String rua;
+    protected String endereco;
+    protected String cep;
 
-    /*public String getRua(String rua){
-        return rua;
-    }
-        public void setRua(){
-        this.rua=rua;
-    }*/
-
-
-    public String getRua() {
-        return rua;
+    public String getCep() {
+        return cep;
     }
 
-    public void setRua(String rua) {
-        this.rua = rua;
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 }
