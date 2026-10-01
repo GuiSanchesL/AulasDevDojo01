@@ -1,4 +1,4 @@
-package ModificadoresStatics.Dominio;
+package FmodificadoresStatics.Dominio;
 
 public class Anime {
     private String nome;

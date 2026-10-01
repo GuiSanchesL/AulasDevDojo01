@@ -1,4 +1,4 @@
-package BlocosDeInicializacao.Dominio;
+package EblocosDeInicializacao.Dominio;
 
 public class Anime {
     private String nome;

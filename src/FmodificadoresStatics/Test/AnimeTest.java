@@ -1,6 +1,6 @@
-package ModificadoresStatics.Test;
+package FmodificadoresStatics.Test;
 
-import ModificadoresStatics.Dominio.Anime;
+import FmodificadoresStatics.Dominio.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

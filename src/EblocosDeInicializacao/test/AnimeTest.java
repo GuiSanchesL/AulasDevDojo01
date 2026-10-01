@@ -1,6 +1,6 @@
-package BlocosDeInicializacao.test;
+package EblocosDeInicializacao.test;
 
-import BlocosDeInicializacao.Dominio.Anime;
+import EblocosDeInicializacao.Dominio.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {
